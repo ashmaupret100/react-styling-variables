@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+header {
+  background-color: grey;
+  height: 15vh;
+  width: 100vw;
+}
+ul {
+  text-align: center;
+  padding: 40px;
+}
+li {
+  display: inline;
+  padding: 10px;
+}
+main {
+  height: 75vh;
+  padding: 10px;
+}
+main .book-wrapper {
+  display: flex;
+  height: 40vh;
+  width: 40vw;
+}
+
+main h1 {
+  text-align: center;
+}
+main .book-box {
+  background-color: rgb(255, 255, 255);
+  height: 40vh;
+  width: 20vw;
+  border-style: solid;
+  margin: 10px;
+}
+main .book-image {
+  height: 30vh;
+  width: 20vw;
+  background-color: gray;
+}
+button {
+  margin: 15px;
+  background-color: gray;
+}
+footer {
+  height: 5vh;
+  background-color: gray;
+}
